@@ -9,6 +9,7 @@ import ru.perelyginva.dependencyinjectionstart.example2.domain.ExampleRepository
 @Module
 interface DomainModule {
 
+
     @Binds
       fun bindRepository(impl: ExampleRepositoryImpl): ExampleRepository
 }
